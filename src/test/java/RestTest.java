@@ -58,7 +58,6 @@ public class RestTest {
                 .body("name", hasItem("Дьявольский фрукт"));
     }
 
-
     @Test
     @Order(2)
     void GetFood() {
